@@ -18,7 +18,7 @@ class App extends Component {
                         <a
                             className="nav-link"
                             target={section.Link ? "_blank" : null}
-                            rel = "noopener"
+                            rel="noopener"
                             href={section.Link ? section.Link : "#" + section.Name}
                             key={section.Name}
                         >
@@ -29,7 +29,7 @@ class App extends Component {
             >
                 {Config.Name}
             </Header>
-            {Config.Sections.map(section => (
+            {Config.Sections.map(section => section.Link ? null : (
                 <section id={section.Name} key={section.Name}>
                     <div className="container">
                         <div className="row">
