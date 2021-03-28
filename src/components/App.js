@@ -4,15 +4,22 @@ import Header from './Header.js';
 
 class App extends Component {
     state = {
-        Dark : false
+        Dark: false
     }
+
     componentDidMount() {
         document.title = Config.Name + "'s Portfolio"
     }
 
     render() {
         return <div className="App">
-            <Header className="Header" dark={this.state.Dark}>{Config.Name}</Header>
+            <Header className="Header" dark={this.state.Dark}
+                    items={[
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Features</a>
+                        </li>
+                    ]}
+            >{Config.Name}</Header>
         </div>;
     }
 }
