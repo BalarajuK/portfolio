@@ -4,13 +4,16 @@
   "Image": "",
   "Sections": [
     {
-      "Name" : "About"
+      "Name" : "About",
+      "Content" : "I am a software developer"
     },
     {
-      "Name" : "Education"
+      "Name" : "Education",
+      "Content" : "M.Tech in Computer Science and Engineering"
     },
     {
-      "Name" : "Contact"
+      "Name" : "Contact",
+      "Content" : "Hyderabad"
     },
     {
       "Name" : "LinkedIn",

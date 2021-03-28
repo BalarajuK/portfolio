@@ -13,7 +13,7 @@ class App extends Component {
 
     render() {
         return <div className="App">
-            <Header className="Header" dark={this.state.Dark}
+            <Header className="Header fixed-top" dark={this.state.Dark}
                     items={Config.Sections.map(section => (
                         <a
                             className="nav-link"
@@ -36,6 +36,7 @@ class App extends Component {
                             <div className="col-12">
                                 <article>
                                     <h2>{section.Name}</h2>
+                                    <p>{section.Content}</p>
                                 </article>
 
                             </div>

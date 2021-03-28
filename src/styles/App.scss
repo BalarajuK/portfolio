@@ -3,10 +3,13 @@
   section {
     article {
       margin-bottom: 25px;
+      min-height: 40vh;
       padding: 10px;
-      background-color: #fffbfb;
+      background-color: #e3f6ff;
       h2{
         border-bottom: 2px solid #eef;
+        padding-bottom: 10px;
+        margin: 0;
       }
     }
   }
