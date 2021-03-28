@@ -16,7 +16,11 @@ class App extends Component {
             <Header className="Header" dark={this.state.Dark}
                     items={Config.Sections.map(section => (
                         <li className="nav-item" key={section.Name}>
-                            <a className="nav-link" href={section.Link ? section.Link : "#"+section.Name}>
+                            <a
+                                className="nav-link"
+                                target={section.Link ? "_blank":null}
+                                href={section.Link ? section.Link : "#"+section.Name}>
+
                                 {section.Name}
                             </a>
                         </li>
