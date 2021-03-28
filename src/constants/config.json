@@ -1,5 +1,16 @@
 {
-  "Name": "Balaraju",
+  "Name": "Raju",
   "Description": "Software Engineer",
-  "Image": ""
+  "Image": "",
+  "Section": [
+    {
+      "Name" : "About"
+    },
+    {
+      "Name" : "Education"
+    },
+    {
+      "Name" : "Contact"
+    }
+  ]
 }
