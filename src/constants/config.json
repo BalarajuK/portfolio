@@ -1,11 +1,11 @@
 {
-  "Name": "Raju",
+  "Name": "Balaraju Kadukuntla",
   "Description": "Software Engineer",
-  "Image": "",
+  "Image": "/assets/images/profile.png",
   "Sections": [
     {
       "Name" : "About",
-      "Content" : "I am a software developer"
+      "Content" : "I am a Senior Software Engineer. I have more than 14 years of experience in developing scalable, maintainable software products. I have good problem solving skills and have very good knowledge in data structures and algorithms."
     },
     {
       "Name" : "Education",
@@ -13,7 +13,7 @@
     },
     {
       "Name" : "Contact",
-      "Content" : "Hyderabad"
+      "Content" : "You can reach me out at my mail id balaraju004@gmail.com."
     },
     {
       "Name" : "LinkedIn",

@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import Config from '../constants/config.json';
 import Header from './Header.js';
+import Logo from './Logo.js'
 
 class App extends Component {
     state = {
         Dark: false
-    }
+    };
 
     componentDidMount() {
         document.title = Config.Name + "'s Portfolio"
@@ -27,6 +28,7 @@ class App extends Component {
                         </a>
                     ))}
             >
+                <Logo />
                 {Config.Name}
             </Header>
             {Config.Sections.map(section => section.Link ? null : (
