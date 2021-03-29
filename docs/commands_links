@@ -1,0 +1,31 @@
+
+Some useful commands
+-----------------------
+npx create-react-app .
+npm install node-sass
+npm run build
+npm i gh-pages
+npm run build
+npm run dep
+
+Git commands
+--------------
+git remote remove origin
+git remote add origin git@github.com:BalarajuK/portfolio.git
+
+
+
+ssh keygen
+-------------
+ssh-keygen
+  -- :github
+exec ssh-agent bash
+eval ssh-agent -s
+ssh-add github
+
+
+Some links that I have referred
+-----------------------------------
+https://blog.praveen.science/my-personal-development-environment/
+https://github.com/praveenscience/Bootstrap-React-Helpers
+https://www.youtube.com/watch?v=AirP5tsbvLU
